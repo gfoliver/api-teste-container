@@ -1,12 +1,13 @@
-# Express Template
+# Api simples com Container
 
-A NodeJS express backend template
+- Api rest simples que retorna em texto que dia é hoje
 
-## Built With
+## Link Funcionando:
 
-* [NodeJS](https://nodejs.org/)
-* [Express](https://expressjs.com/)
+- [https://teste-container-node.herokuapp.com/](https://teste-container-node.herokuapp.com/)
 
-## Authors
+## Instalação de container local
 
-* **Guilherme Fleck Oliveira** 
+1. `docker run -p 49160:8080 -d matheuslm/node-web-app`
+
+2. Acesse `http://localhost:49160`
