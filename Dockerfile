@@ -15,6 +15,8 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+COPY .env.example .env
+
 EXPOSE 8080
 
 CMD [ "node", "src/index.js" ]
